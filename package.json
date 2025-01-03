@@ -1,0 +1,23 @@
+{
+  "name": "crypto-moralis-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@moralisweb3/next": "^2.22.4",
+    "autoprefixer": "^10.4.20",
+    "ethers": "^5.7.2",
+    "moralis": "^2.22.4",
+    "next": "12.3.4",
+    "next-auth": "^4.22.1",
+    "postcss": "^8.4.49",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.4.17"
+  }
+}
