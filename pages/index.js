@@ -4,6 +4,8 @@ import { ethers } from 'ethers';
 import MarketInsights from '../components/MarketInsights';
 import TokenDiscovery from '../components/TokenDiscovery';
 import TokenSwap from '../components/TokenSwap';
+import TopNFTCollections from '../components/TopNFTCollections';
+
 
 export default function Home() {
   const [address, setAddress] = useState("");
@@ -290,6 +292,14 @@ export default function Home() {
             Token Discovery
           </h2>
           <TokenDiscovery />
+        </div>
+
+        {/* Top NFT Collections Section */}
+        <div className="bg-gray-800/50 backdrop-blur-xl shadow-xl rounded-xl p-6 border border-gray-700">
+          <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 mb-8">
+            Top NFT Collections
+          </h2>
+          <TopNFTCollections />
         </div>
       </div>
     </div>
